@@ -20,6 +20,10 @@
 		E2C52AC62304C50800EFA806 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC52304C50800EFA806 /* VideoController.swift */; };
 		E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC72304C51700EFA806 /* ActualiteController.swift */; };
 		E2C52ACB2304CA2400EFA806 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ACA2304CA2400EFA806 /* MenuCell.swift */; };
+		E2C52ACD2304CDEF00EFA806 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C52ACC2304CDEF00EFA806 /* Default-568h@2x.png */; };
+		E2C52ACF2304CE7D00EFA806 /* ActuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ACE2304CE7D00EFA806 /* ActuCell.swift */; };
+		E2C52AD12304CE9400EFA806 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD02304CE9400EFA806 /* VideoCell.swift */; };
+		E2C52AD32304CFA800EFA806 /* Extension UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD22304CFA800EFA806 /* Extension UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		E2C52AC52304C50800EFA806 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		E2C52AC72304C51700EFA806 /* ActualiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualiteController.swift; sourceTree = "<group>"; };
 		E2C52ACA2304CA2400EFA806 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		E2C52ACC2304CDEF00EFA806 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E2C52ACE2304CE7D00EFA806 /* ActuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActuCell.swift; sourceTree = "<group>"; };
+		E2C52AD02304CE9400EFA806 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		E2C52AD22304CFA800EFA806 /* Extension UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension UI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 		E2C52A8D2304935800EFA806 = {
 			isa = PBXGroup;
 			children = (
+				E2C52ACC2304CDEF00EFA806 /* Default-568h@2x.png */,
 				E2C52A982304935800EFA806 /* Codabee */,
 				E2C52A972304935800EFA806 /* Products */,
 			);
@@ -110,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C52AC92304C9F000EFA806 /* TableViewCell */,
+				E2C52AD22304CFA800EFA806 /* Extension UI.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				E2C52ACA2304CA2400EFA806 /* MenuCell.swift */,
+				E2C52ACE2304CE7D00EFA806 /* ActuCell.swift */,
+				E2C52AD02304CE9400EFA806 /* VideoCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 				E2C52AB82304ADBA00EFA806 /* Video.storyboard in Resources */,
 				E2C52AA42304935900EFA806 /* LaunchScreen.storyboard in Resources */,
 				E2C52AA12304935900EFA806 /* Assets.xcassets in Resources */,
+				E2C52ACD2304CDEF00EFA806 /* Default-568h@2x.png in Resources */,
 				E2C52AB62304ADA500EFA806 /* Actualite.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,10 +267,13 @@
 			files = (
 				E2C52ACB2304CA2400EFA806 /* MenuCell.swift in Sources */,
 				E2C52AC62304C50800EFA806 /* VideoController.swift in Sources */,
+				E2C52AD12304CE9400EFA806 /* VideoCell.swift in Sources */,
 				E2C52A9A2304935800EFA806 /* AppDelegate.swift in Sources */,
 				E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */,
 				E2C52AC42304C4DD00EFA806 /* ForumController.swift in Sources */,
+				E2C52AD32304CFA800EFA806 /* Extension UI.swift in Sources */,
 				E2C52ABF2304B06300EFA806 /* MenusController.swift in Sources */,
+				E2C52ACF2304CE7D00EFA806 /* ActuCell.swift in Sources */,
 				E2C52ABD2304AEEC00EFA806 /* RootController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,7 @@ class MenuCell: UITableViewCell {
     @IBOutlet weak var nameLbl: UILabel!
     
     func setup(_ string: String){
+        self.setup()
         nameLbl.text = string
     }
 
