@@ -48,13 +48,43 @@
                                         <rect key="frame" x="0.0" y="201" width="364" height="651"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="BSr-aL-KYe">
-                                                <rect key="frame" x="0.0" y="28" width="364" height="44"/>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCell" rowHeight="81" id="BSr-aL-KYe" customClass="MenuCell" customModule="Codabee" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="364" height="81"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BSr-aL-KYe" id="jY1-8d-iWv">
-                                                    <rect key="frame" x="0.0" y="0.0" width="364" height="43.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="364" height="80.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jj7-UY-jZf">
+                                                            <rect key="frame" x="10" y="5" width="344" height="70.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzF-Sd-kSI">
+                                                                    <rect key="frame" x="294" y="18" width="42" height="35"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="35" id="NvO-eg-rrM"/>
+                                                                    </constraints>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="PzF-Sd-kSI" secondAttribute="trailing" constant="8" id="P40-GB-6AP"/>
+                                                                <constraint firstItem="PzF-Sd-kSI" firstAttribute="centerY" secondItem="Jj7-UY-jZf" secondAttribute="centerY" id="jFS-hp-fMR"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="Jj7-UY-jZf" firstAttribute="top" secondItem="jY1-8d-iWv" secondAttribute="top" constant="5" id="3Ik-g8-PGD"/>
+                                                        <constraint firstItem="Jj7-UY-jZf" firstAttribute="leading" secondItem="jY1-8d-iWv" secondAttribute="leading" constant="10" id="MfI-p1-vWw"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Jj7-UY-jZf" secondAttribute="trailing" constant="10" id="OoW-iP-lVQ"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Jj7-UY-jZf" secondAttribute="bottom" constant="5" id="Vkf-bF-cUP"/>
+                                                    </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="nameLbl" destination="PzF-Sd-kSI" id="ZAw-hz-w7c"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
@@ -85,6 +115,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xr3-5v-QJE"/>
                     </view>
+                    <connections>
+                        <outlet property="tableViewActu" destination="wfx-sX-A4v" id="oI1-cA-W7D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEX-2Z-Ehz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

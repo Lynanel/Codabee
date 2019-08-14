@@ -19,6 +19,7 @@
 		E2C52AC42304C4DD00EFA806 /* ForumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC32304C4DD00EFA806 /* ForumController.swift */; };
 		E2C52AC62304C50800EFA806 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC52304C50800EFA806 /* VideoController.swift */; };
 		E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC72304C51700EFA806 /* ActualiteController.swift */; };
+		E2C52ACB2304CA2400EFA806 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ACA2304CA2400EFA806 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E2C52AC32304C4DD00EFA806 /* ForumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumController.swift; sourceTree = "<group>"; };
 		E2C52AC52304C50800EFA806 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		E2C52AC72304C51700EFA806 /* ActualiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualiteController.swift; sourceTree = "<group>"; };
+		E2C52ACA2304CA2400EFA806 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		E2C52AAF2304ACFC00EFA806 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2C52AC92304C9F000EFA806 /* TableViewCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,14 @@
 				E2C52AC32304C4DD00EFA806 /* ForumController.swift */,
 			);
 			path = Forum;
+			sourceTree = "<group>";
+		};
+		E2C52AC92304C9F000EFA806 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2C52ACA2304CA2400EFA806 /* MenuCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C52ACB2304CA2400EFA806 /* MenuCell.swift in Sources */,
 				E2C52AC62304C50800EFA806 /* VideoController.swift in Sources */,
 				E2C52A9A2304935800EFA806 /* AppDelegate.swift in Sources */,
 				E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */,
