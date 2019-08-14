@@ -16,6 +16,9 @@
 		E2C52ABA2304ADC600EFA806 /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C52AB92304ADC600EFA806 /* Forum.storyboard */; };
 		E2C52ABD2304AEEC00EFA806 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ABC2304AEEC00EFA806 /* RootController.swift */; };
 		E2C52ABF2304B06300EFA806 /* MenusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ABE2304B06300EFA806 /* MenusController.swift */; };
+		E2C52AC42304C4DD00EFA806 /* ForumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC32304C4DD00EFA806 /* ForumController.swift */; };
+		E2C52AC62304C50800EFA806 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC52304C50800EFA806 /* VideoController.swift */; };
+		E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AC72304C51700EFA806 /* ActualiteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		E2C52AB92304ADC600EFA806 /* Forum.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forum.storyboard; sourceTree = "<group>"; };
 		E2C52ABC2304AEEC00EFA806 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
 		E2C52ABE2304B06300EFA806 /* MenusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusController.swift; sourceTree = "<group>"; };
+		E2C52AC32304C4DD00EFA806 /* ForumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumController.swift; sourceTree = "<group>"; };
+		E2C52AC52304C50800EFA806 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		E2C52AC72304C51700EFA806 /* ActualiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualiteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		E2C52AAE2304ACF500EFA806 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E2C52AC22304C4CD00EFA806 /* Forum */,
+				E2C52AC12304C4C300EFA806 /* Video */,
+				E2C52AC02304C4B700EFA806 /* Actualite */,
 				E2C52ABB2304AEBB00EFA806 /* Menus */,
 			);
 			path = Controllers;
@@ -131,6 +140,30 @@
 				E2C52ABE2304B06300EFA806 /* MenusController.swift */,
 			);
 			path = Menus;
+			sourceTree = "<group>";
+		};
+		E2C52AC02304C4B700EFA806 /* Actualite */ = {
+			isa = PBXGroup;
+			children = (
+				E2C52AC72304C51700EFA806 /* ActualiteController.swift */,
+			);
+			path = Actualite;
+			sourceTree = "<group>";
+		};
+		E2C52AC12304C4C300EFA806 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E2C52AC52304C50800EFA806 /* VideoController.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		E2C52AC22304C4CD00EFA806 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				E2C52AC32304C4DD00EFA806 /* ForumController.swift */,
+			);
+			path = Forum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C52AC62304C50800EFA806 /* VideoController.swift in Sources */,
 				E2C52A9A2304935800EFA806 /* AppDelegate.swift in Sources */,
+				E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */,
+				E2C52AC42304C4DD00EFA806 /* ForumController.swift in Sources */,
 				E2C52ABF2304B06300EFA806 /* MenusController.swift in Sources */,
 				E2C52ABD2304AEEC00EFA806 /* RootController.swift in Sources */,
 			);
