@@ -24,6 +24,8 @@
 		E2C52ACF2304CE7D00EFA806 /* ActuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ACE2304CE7D00EFA806 /* ActuCell.swift */; };
 		E2C52AD12304CE9400EFA806 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD02304CE9400EFA806 /* VideoCell.swift */; };
 		E2C52AD32304CFA800EFA806 /* Extension UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD22304CFA800EFA806 /* Extension UI.swift */; };
+		E2C52AD52304D15800EFA806 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD42304D15800EFA806 /* CustomView.swift */; };
+		E2C52AD72304D23800EFA806 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD62304D23800EFA806 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		E2C52ACE2304CE7D00EFA806 /* ActuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActuCell.swift; sourceTree = "<group>"; };
 		E2C52AD02304CE9400EFA806 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		E2C52AD22304CFA800EFA806 /* Extension UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension UI.swift"; sourceTree = "<group>"; };
+		E2C52AD42304D15800EFA806 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		E2C52AD62304D23800EFA806 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			children = (
 				E2C52AC92304C9F000EFA806 /* TableViewCell */,
 				E2C52AD22304CFA800EFA806 /* Extension UI.swift */,
+				E2C52AD42304D15800EFA806 /* CustomView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		E2C52AB12304AD2100EFA806 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				E2C52AD62304D23800EFA806 /* Constantes.swift */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 				E2C52AD12304CE9400EFA806 /* VideoCell.swift in Sources */,
 				E2C52A9A2304935800EFA806 /* AppDelegate.swift in Sources */,
 				E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */,
+				E2C52AD72304D23800EFA806 /* Constantes.swift in Sources */,
 				E2C52AC42304C4DD00EFA806 /* ForumController.swift in Sources */,
+				E2C52AD52304D15800EFA806 /* CustomView.swift in Sources */,
 				E2C52AD32304CFA800EFA806 /* Extension UI.swift in Sources */,
 				E2C52ABF2304B06300EFA806 /* MenusController.swift in Sources */,
 				E2C52ACF2304CE7D00EFA806 /* ActuCell.swift in Sources */,
