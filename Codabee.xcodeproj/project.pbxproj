@@ -14,6 +14,8 @@
 		E2C52AB62304ADA500EFA806 /* Actualite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C52AB52304ADA500EFA806 /* Actualite.storyboard */; };
 		E2C52AB82304ADBA00EFA806 /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C52AB72304ADBA00EFA806 /* Video.storyboard */; };
 		E2C52ABA2304ADC600EFA806 /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C52AB92304ADC600EFA806 /* Forum.storyboard */; };
+		E2C52ABD2304AEEC00EFA806 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ABC2304AEEC00EFA806 /* RootController.swift */; };
+		E2C52ABF2304B06300EFA806 /* MenusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ABE2304B06300EFA806 /* MenusController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E2C52AB52304ADA500EFA806 /* Actualite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Actualite.storyboard; sourceTree = "<group>"; };
 		E2C52AB72304ADBA00EFA806 /* Video.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
 		E2C52AB92304ADC600EFA806 /* Forum.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forum.storyboard; sourceTree = "<group>"; };
+		E2C52ABC2304AEEC00EFA806 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		E2C52ABE2304B06300EFA806 /* MenusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,6 @@
 				E2C52AA02304935900EFA806 /* Assets.xcassets */,
 				E2C52AB12304AD2100EFA806 /* Ressources */,
 				E2C52AB22304AD2900EFA806 /* Pliist */,
-				E2C52AA52304935900EFA806 /* Info.plist */,
 			);
 			path = Codabee;
 			sourceTree = "<group>";
@@ -87,6 +90,7 @@
 		E2C52AAE2304ACF500EFA806 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E2C52ABB2304AEBB00EFA806 /* Menus */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -115,8 +119,18 @@
 		E2C52AB22304AD2900EFA806 /* Pliist */ = {
 			isa = PBXGroup;
 			children = (
+				E2C52AA52304935900EFA806 /* Info.plist */,
 			);
 			path = Pliist;
+			sourceTree = "<group>";
+		};
+		E2C52ABB2304AEBB00EFA806 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				E2C52ABC2304AEEC00EFA806 /* RootController.swift */,
+				E2C52ABE2304B06300EFA806 /* MenusController.swift */,
+			);
+			path = Menus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C52A9A2304935800EFA806 /* AppDelegate.swift in Sources */,
+				E2C52ABF2304B06300EFA806 /* MenusController.swift in Sources */,
+				E2C52ABD2304AEEC00EFA806 /* RootController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
