@@ -10,7 +10,7 @@ import UIKit
 
 extension UITableView {
     
-    func setup(){
+    func setup(color: UIColor){
         backgroundColor = .clear
         separatorStyle = .none
         tableFooterView = UIView()

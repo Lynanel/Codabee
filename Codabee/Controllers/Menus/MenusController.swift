@@ -21,7 +21,7 @@ class MenusController: UIViewController {
         view.backgroundColor = .darkGray
         tableViewActu.delegate = self
         tableViewActu.dataSource = self
-        tableViewActu.setup()
+        tableViewActu.setup(color: .clear)
     }
 
 }

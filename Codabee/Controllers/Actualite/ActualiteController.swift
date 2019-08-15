@@ -17,15 +17,23 @@ class ActualiteController: UITableViewController, SIdeMenuItemContent {
         super.viewDidLoad()
         title = "Actualités"
         tableView.setup(color: .darkGray)
+        tableView.refreshControl = UIRefreshControl()
+        tableView.refreshControl?.addTarget(self, action: #selector(parse), for: .valueChanged)
+        
         parse()
     }
     
-    func parse() {
+    @objc func parse() {
         RSSParser().parse(CODABEE_FEED) { (art) in
             DispatchQueue.main.async {
                 self.articles = art
                 print("Articles count: \(self.articles.count)")
                 self.tableView.reloadData()
+                
+                //
+                if self.tableView.refreshControl?.isRefreshing ?? false {
+                    self.tableView.refreshControl?.endRefreshing()
+                }
             }
         }
     }
