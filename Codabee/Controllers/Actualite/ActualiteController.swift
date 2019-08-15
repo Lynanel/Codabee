@@ -16,7 +16,7 @@ class ActualiteController: UITableViewController, SIdeMenuItemContent {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Actualités"
-        tableView.setup()
+        tableView.setup(color: .darkGray)
         parse()
     }
     
@@ -39,8 +39,15 @@ class ActualiteController: UITableViewController, SIdeMenuItemContent {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleCell") as? ArticleCell {
+            cell.setup(articles[indexPath.row])
+            return cell
+        }
         return UITableViewCell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 280
     }
  
     
