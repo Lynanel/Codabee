@@ -67,10 +67,8 @@ class ActualiteController: UITableViewController, UITableViewDelegate, SIdeMenuI
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //guard let segue = segue.identifier != nil else { return }
-        if let segue.identifier == segueDetail {
-            if let controller = segue.destination as? WebController {
+        if segue.identifier == segueDetail, let controller = segue.destination as? WebController {
                 controller.urlString = sender as? String
-            }
         }
     }
     
