@@ -9,9 +9,10 @@
 import UIKit
 //import InteractiveSideMenu
 
-class ActualiteController: UITableViewController, SIdeMenuItemContent {
+class ActualiteController: UITableViewController, UITableViewDelegate, SIdeMenuItemContent {
 
     var articles: [Article] = []
+    let segueDetail = "Detail"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,20 @@ class ActualiteController: UITableViewController, SIdeMenuItemContent {
         return 280
     }
  
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let urlString = articles[indexPath.row].link
+        performSegue(withIdentifier: segueDetail, sender: urlString)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //guard let segue = segue.identifier != nil else { return }
+        if let segue.identifier == segueDetail {
+            if let controller = segue.destination as? WebController {
+                controller.urlString = sender as? String
+            }
+        }
+    }
     
     @IBAction func showMenu(_ sender: Any) {
         showSideMenu()
