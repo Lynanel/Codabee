@@ -27,6 +27,7 @@
 		E2C52AD52304D15800EFA806 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD42304D15800EFA806 /* CustomView.swift */; };
 		E2C52AD72304D23800EFA806 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD62304D23800EFA806 /* Constantes.swift */; };
 		E2C52AD92304D52E00EFA806 /* Nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52AD82304D52E00EFA806 /* Nav.swift */; };
+		E2C52ADB2304D7DF00EFA806 /* RoundIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52ADA2304D7DF00EFA806 /* RoundIV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E2C52AD42304D15800EFA806 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		E2C52AD62304D23800EFA806 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		E2C52AD82304D52E00EFA806 /* Nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav.swift; sourceTree = "<group>"; };
+		E2C52ADA2304D7DF00EFA806 /* RoundIV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundIV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				E2C52AC92304C9F000EFA806 /* TableViewCell */,
 				E2C52AD22304CFA800EFA806 /* Extension UI.swift */,
 				E2C52AD42304D15800EFA806 /* CustomView.swift */,
+				E2C52ADA2304D7DF00EFA806 /* RoundIV.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				E2C52AC82304C51700EFA806 /* ActualiteController.swift in Sources */,
 				E2C52AD72304D23800EFA806 /* Constantes.swift in Sources */,
 				E2C52AD92304D52E00EFA806 /* Nav.swift in Sources */,
+				E2C52ADB2304D7DF00EFA806 /* RoundIV.swift in Sources */,
 				E2C52AC42304C4DD00EFA806 /* ForumController.swift in Sources */,
 				E2C52AD52304D15800EFA806 /* CustomView.swift in Sources */,
 				E2C52AD32304CFA800EFA806 /* Extension UI.swift in Sources */,

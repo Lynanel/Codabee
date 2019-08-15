@@ -17,7 +17,7 @@ class ForumController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Forum"
         // Do any additional setup after loading the view.
     }
     

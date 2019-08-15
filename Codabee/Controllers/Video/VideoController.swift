@@ -16,6 +16,7 @@ class VideoController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Video"
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

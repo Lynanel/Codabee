@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Actualite Controller-->
         <scene sceneID="mmF-tl-lMP">
             <objects>
                 <tableViewController id="xiD-yu-zsT" customClass="ActualiteController" customModule="Codabee" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="xiD-yu-zsT" id="mf6-et-aNq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="fxB-oF-Ex4">
+                    <navigationItem key="navigationItem" id="fxB-oF-Ex4">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="KXo-Bd-1uH">
                             <connections>
                                 <action selector="showMenu:" destination="xiD-yu-zsT" id="Vrp-lS-7Jf"/>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="298.55072463768118" y="127.90178571428571"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Nav-->
         <scene sceneID="XxH-67-Mrp">
             <objects>
-                <navigationController id="yTg-1d-Kkq" sceneMemberID="viewController">
+                <navigationController id="yTg-1d-Kkq" customClass="Nav" customModule="Codabee" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rc7-Yg-KtK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
