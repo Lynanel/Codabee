@@ -12,6 +12,7 @@
 		E27BCC512305A3B500CDF846 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27BCC502305A3B500CDF846 /* ArticleCell.swift */; };
 		E27BCC532305B16300CDF846 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27BCC522305B16300CDF846 /* WebController.swift */; };
 		E27BCC552305C0E300CDF846 /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27BCC542305C0E300CDF846 /* LoadingImageView.swift */; };
+		E27BCC572305C53100CDF846 /* Extensions Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27BCC562305C53100CDF846 /* Extensions Type.swift */; };
 		E2C52A9A2304935800EFA806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C52A992304935800EFA806 /* AppDelegate.swift */; };
 		E2C52AA12304935900EFA806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C52AA02304935900EFA806 /* Assets.xcassets */; };
 		E2C52AA42304935900EFA806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C52AA22304935900EFA806 /* LaunchScreen.storyboard */; };
@@ -40,6 +41,7 @@
 		E27BCC502305A3B500CDF846 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		E27BCC522305B16300CDF846 /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 		E27BCC542305C0E300CDF846 /* LoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
+		E27BCC562305C53100CDF846 /* Extensions Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions Type.swift"; sourceTree = "<group>"; };
 		E2C52A962304935800EFA806 /* Codabee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codabee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C52A992304935800EFA806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C52AA02304935900EFA806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				E27BCC4C230599E000CDF846 /* Article.swift */,
 				E27BCC4E23059AB400CDF846 /* RSSParser.swift */,
+				E27BCC562305C53100CDF846 /* Extensions Type.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				E2C52ABD2304AEEC00EFA806 /* RootController.swift in Sources */,
 				E27BCC4D230599E000CDF846 /* Article.swift in Sources */,
 				E27BCC4F23059AB400CDF846 /* RSSParser.swift in Sources */,
+				E27BCC572305C53100CDF846 /* Extensions Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

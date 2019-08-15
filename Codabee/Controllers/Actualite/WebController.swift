@@ -20,6 +20,7 @@ class WebController: UIViewController {
         super.viewDidLoad()
         guard let link = urlString, let url = URL(string: link) else { return }
         let urlRequest = URLRequest(url: url)
+        
         webView.navigationDelegate = self
         
         //Créer une annimation

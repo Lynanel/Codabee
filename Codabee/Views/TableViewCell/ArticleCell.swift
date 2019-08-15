@@ -22,6 +22,8 @@ class ArticleCell: UITableViewCell {
         setup()
         self.titleLbl.text = article.title
         //Date à formatter en il y a
+        dateLbl.text = self.article.pubDate.ilYA()
+        
         articleIV.sd_setImage(with: URL(string: self.article.imageUrl), placeholderImage: BUMBLE_IMAGE , options: SDWebImageOptions.highPriority, completed: nil )
     }
     
