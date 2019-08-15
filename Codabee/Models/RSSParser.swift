@@ -17,8 +17,12 @@ class RSSParser: NSObject, XMLParserDelegate {
     var imaageUrl = ""
     
     var element = ""
+    var completion: (([Article]) -> Void)?
     
-    func parse(_ urlString: String) {
+    func parse(_ urlString: String, completion: (([Article]) -> Void)?) {
+        
+        self.completion = completion
+        
         if let url = URL(string: urlString) {
             URLSession.shared.dataTask(with: url) { (data, response, Error) in
                 if Error == nil {
@@ -28,13 +32,16 @@ class RSSParser: NSObject, XMLParserDelegate {
                         parser.parse()
                     } else {
                         //Arrêter
+                        self.completion?(articles)
                     }
                 } else {
                     //Arrêter tout
+                    self.completion?(articles)
                 }
             }.resume()
         } else {
             //Arrête tout
+            self.completion?(articles)
         }
     }
     
@@ -79,12 +86,13 @@ class RSSParser: NSObject, XMLParserDelegate {
     
     func parserDidEndDocument(_ parser: XMLParser) {
         //Envoyer les données
-        
+        self.completion?(articles)
     }
     
     func parser(_ parser: XMLParser, parseErrorOccurred parseError: Error) {
         //Arrêter
-        
+        print(parseError.localizedDescription)
+        self.completion?(articles)
     }
     
 }
