@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import InteractiveSideMenu
+import InteractiveSideMenu
 
 class MenusController: UIViewController {
     
